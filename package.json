@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-sender-mercadocoop",
+  "version": "1.0.0",
+  "author": "MercadoCoop",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "wbm": "^1.1.16",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
