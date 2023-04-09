@@ -29,7 +29,7 @@ iterator.Nombre + '\n';
         msg += 
         '¡Tu pedido está listo! Te esperamos en nuestra sede de calle 25 de Mayo número 66, \n'+
         'el jueves entre las 10 y las 13:30 para retirarlo.\n'+
-        'El total es $ 1110. Agradeceremos si podés abonar con cambio.\n'+
+        'El total es $ ' + iterator.Total + '. Agradeceremos si podés abonar con cambio.\n'+
         'Te recordamos que si tenés alguna caja para darnos, nos será muy útil para futuros pedidos.';
     };
     msg += '¡Gracias por tu compra!\n'
