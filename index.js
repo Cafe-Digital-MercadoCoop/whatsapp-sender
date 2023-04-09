@@ -20,9 +20,9 @@ rows.forEach(async iterator => {
 iterator.Nombre + '\n';
     let msg = '¡Buenas tardes ' + iterator.Nombre + '!\n'
     msg += 
-    '¡Tu pedido está listo! El jueves entre las 9 y las 12 hs aproximadamente estaremos '
-    'visitando tu domicilio para entregártelo.\n'
-    'El total es $ ' + iterator.Total + '. Agradeceremos si podés abonar con cambio.\n'
+    '¡Tu pedido está listo! El jueves entre las 9 y las 12 hs aproximadamente estaremos '+
+    'visitando tu domicilio para entregártelo.\n'+
+    'El total es $ ' + iterator.Total + '. Agradeceremos si podés abonar con cambio.\n'+
     '¡Gracias por tu compra!\n';
 
     /* CRAPPY JSON transformation */
